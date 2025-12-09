@@ -30,11 +30,11 @@ def setup():
             parsed_response = json.loads(res.choices[0].message.content)
 
             if parsed_response.get("step") == "start":
-                print(f"    {parsed_response.get('content')}")
+                print(f"{parsed_response.get('content')}")
                 continue
 
             if parsed_response.get("step") == "plan":
-                print(f"    {parsed_response.get('content')}")
+                print(f"{parsed_response.get('content')}")
                 continue
 
             if parsed_response.get("step") == "action":
@@ -58,5 +58,5 @@ def setup():
                     continue
 
             if parsed_response.get("step") == "result":
-                print(f"    {parsed_response.get('content')}")
+                print(f"{parsed_response.get('content')}")
                 break
