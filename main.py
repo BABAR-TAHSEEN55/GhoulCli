@@ -2,8 +2,10 @@ from agent.setup import setup
 
 
 def main():
-    print("Hello from GhoulAiCLI")
-    setup()
+    try:
+        setup()
+    except KeyboardInterrupt:
+        print("Bye!!")
 
 
 if __name__ == "__main__":
