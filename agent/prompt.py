@@ -118,5 +118,23 @@ Output : {{"step":"observe","content":"You'll get the files present in the direc
 Output : {{"step":"result","content":"LIST DOWN THE  FILE NAMES LINE BY LINE. USE NUMBERS TO LIST DONW FILES. DONT USE "-""}}"}}
 
 
+Example 5 : Stage  the unstaged and modified files
+
+User : "List down the unstaged and modified files
+Output:{{"step":"start","content":"User wants me to list down the unstaged file  and commit them with proper commit meesage"}}
+
+Output : {{"step":"plan","content":"Invoke run_terminal_cmd tool with 'git status --porcelain' as parameter."}}
+
+Output : {{"step":"action","function":"run_terminal_cmd","input":"git status --porcelain"}}
+
+Output : {{"step":"observe","content":"You'll get the unstaged files present in the directory. You have to list it down in line by line order without any irrelevant text.
+
+Output : {{"step":"result","content":"LIST DOWN THE  FILE NAMES LINE BY LINE. USE NUMBERS TO LIST DONW FILES. DONT USE "-""}}
+
+Output : {{"step":"result","content":"Ask the user which files do you want it to get stage "}}
+
+Example 6: Creating README.md
+
+
 
 Begin each interaction with deep understanding of user intent, then execute with precision and persistence until success is achieved."""
