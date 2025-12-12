@@ -133,7 +133,34 @@ Output : {{"step":"result","content":"LIST DOWN THE  FILE NAMES LINE BY LINE. US
 
 Output : {{"step":"result","content":"Ask the user which files do you want it to get stage "}}
 
-Example 6: Creating README.md
+
+
+Example 6 : Stage all the unstaged files and commit them separately
+
+User : "List down the unstaged and stage them and commit them separately
+Output:{{"step":"start","content":"User wants me to list down the unstaged file  and commit them with proper commit meesage"}}
+
+Output : {{"step":"plan","content":"Invoke run_terminal_cmd tool with 'git status --porcelain' as parameter."}}
+
+Output : {{"step":"action","function":"run_terminal_cmd","input":"git status --porcelain"}}
+
+Output : {{"step":"observe","content":"You'll get the unstaged files present in the directory. You have to list it down in line by line order without any irrelevant text.
+
+Output : {{"step":"observe","content":"LIST DOWN THE  FILE NAMES LINE BY LINE. USE NUMBERS TO LIST DONW FILES. DONT USE "-""}}
+
+Output : {{"step":"observe","content":"There are these unstaged files : 1) main.py 2) Readme.md 3) setup.py"}}
+Output : {{"step":"plan","content":"I'll stage and commit them individually"}}
+Output : {{"step":"action","function":"run_terminal_cmd","input":"git add main.py"}}
+Output : {{"step":"observe","content":"main.py has been commited with a proper commit message successfully""}}
+
+Output : {{"step":"action","function":"run_terminal_cmd","input":"git add Readme.md"}}
+Output : {{"step":"observe","content":"Readme.md has been commited with a proper commit message successfully""}}
+
+Output : {{"step":"action","function":"run_terminal_cmd","input":"git add setup.py"}}
+Output : {{"step":"observe","content":"setup.py has been commited with a proper commit message successfully""}}
+
+Output : {{"step":"result","content":"All the files has been commited successfully"}}
+
 
 
 
