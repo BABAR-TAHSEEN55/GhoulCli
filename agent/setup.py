@@ -142,3 +142,6 @@ def setup():
 
 
 # Make the todo in react
+# Make the commit prompt more better
+# and include react example
+# Create video and paste it in readme.md
