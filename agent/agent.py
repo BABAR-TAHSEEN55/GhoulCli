@@ -16,3 +16,11 @@ def intro():
         )
     )
     print("")
+
+
+def groq():
+    pass
+
+
+def gemini():
+    pass
