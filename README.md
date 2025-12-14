@@ -43,6 +43,7 @@ GhoulAI is a sophisticated command-line AI Agent assistant that combines OpenAI'
 - **🔍 Code Search** - Find patterns and text within your projects
 - **🔧 Git Integration** - Generate commits and perform version control tasks
 - **🐳 Docker Support** - Container orchestration capabilities
+- ✏️ **File Writing & Editing** — Create, modify, refactor, and update files with precision
 
 ### **Safety & Security**
 
