@@ -1,5 +1,3 @@
-# 🧙‍♂️ GhoulAI
-
 <div align="center">
 
 ```
@@ -225,13 +223,13 @@ python main.py --noreason
     - `termcolor>=3.2.0` - Terminal color output
     - `dotenv>=0.9.9` - Environment variable management
 
-## 📜 License
+<!--## 📜 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
----
+----->
 
-<div align="center">
+<!--<div align="center">
   <p><strong>Made with 🧙‍♂️ by the GhoulAI team</strong></p>
   <p><em>Empowering developers with intelligent automation</em></p>
-</div>
+</div>-->
