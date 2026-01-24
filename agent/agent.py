@@ -17,6 +17,8 @@ def intro():
     )
     print("")
 
+    # TODO: : Pending GROQ & GEMINI SETUP
+
 
 def groq():
     pass
